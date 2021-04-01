@@ -14,7 +14,7 @@ class GalleryViewModel @ViewModelInject constructor(
 ) : ViewModel() {
 
     companion object {
-        private const val DEFAULT_QUERY = "football"
+        private const val DEFAULT_QUERY = "potrait"
     }
     private val currentQuery = MutableLiveData(DEFAULT_QUERY)
 
